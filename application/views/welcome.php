@@ -9,30 +9,18 @@
     <div>
         <form action="welcome/predict" method="post">
             <br>
+            <h2>Is Miami Gonna Win?</h2>
             {teams}
             {predict_button}
-            <br>These predictions are made using the teams' point average for this season to data, as well as the trend over the last 5 games, and 
-            last five games against the opposing team.
+            <br>
+            <div id="prediction_blurb">
+                These predictions are made using the teams' point average for this season to data, as well as the trend over the last 5 games, and 
+                last five games against the opposing team.
+            </div>
         </form>
         <div id="prediction">
             --
         </div>
         <br><br>
     </div>
-    
-    <table id="membertable">
-        <tr>
-            <th><h3>Our Team</h3></th>
-        </tr>
-        <tr>
-            {member_list}
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img id="member_image" src="assets/images/member_images/{image}"></td>
-            {/member_list}
-        </tr>
-        <tr>
-            {member_list}
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{name}</td>
-            {/member_list}
-        </tr>
-    </table>
 </div>
