@@ -8,11 +8,15 @@
 
     <div>
         <form action="welcome/predict" method="post">
-            <h3>Who's Gonna Win?</h3>
+            <br>
+            <h2>Is Miami Gonna Win?</h2>
             {teams}
             {predict_button}
-            <br>These predictions are made using the teams' point average for this season to data, as well as the trend over the last 5 games, and 
-            last five games against the opposing team.
+            <br>
+            <div id="prediction_blurb">
+                These predictions are made using the teams' point average for this season to data, as well as the trend over the last 5 games, and 
+                last five games against the opposing team.
+            </div>
         </form>
         <div id="prediction">
             --

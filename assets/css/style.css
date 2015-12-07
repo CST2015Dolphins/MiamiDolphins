@@ -243,4 +243,11 @@ a {
 
 #prediction {
     color: #158f98;
+    font-size: 20px;
+}
+
+#prediction_blurb {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
 }
