@@ -16,7 +16,7 @@
         <p><b>Current Layout: League</b></p>
     </div>
     
-    <div class="teamtable">
+    <div class="teamtable_special">
         <table>
             <tr>
                 <th></th>
