@@ -19,7 +19,7 @@
     <a class="add_player" href='/player/add'>Add a new player</a>
     <br><br>
     
-    <div  class="playerstable">
+    <div class="playerstable">
 
         <table>
             <tr class="playerstable">
