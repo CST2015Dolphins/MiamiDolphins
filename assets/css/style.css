@@ -139,6 +139,20 @@ div.playerstable td.nopadding {
     float: right;
 }
 
+#team_sort_form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 450px;
+    float: left;
+}
+
+#team_layout_form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 450px;
+    float: right;
+}
+
 #rosterlinks {
     text-align: center;
     font-size: 20px;
@@ -152,4 +166,22 @@ div.playerstable td.nopadding {
 
 input#playerid {
     display: none;
+}
+
+tr.layoutheading {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.center_content {
+    text-align: center;
+    width: 100%;
+}
+
+img.nfllogo {
+    height: inherit;
+    max-width: inherit;
 }

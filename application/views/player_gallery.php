@@ -1,13 +1,13 @@
-<div id="playerview">
+<div class="center_content">
     <div id="sort_form">
         Sort By: <select onchange="OrderSort(this.value);">
             {options}
             <option value="{value}">{text}</option>
             {/options}
         </select>
-        <p><b>Current Sort: {ordermethod}</b></p>
+        <p><b>Currently sorting by: {ordermethod}</b></p>
     </div>
-
+    
     <div id="layout_form">
         Layout: <select onchange="ChangeLayout(this.value);">
             {layoutoptions}
@@ -17,8 +17,8 @@
         <p><b>Current Layout: Gallery</b></p>
     </div>
 
-<a href='/player/add' style="font-size:24px;">Add a new player</a> 
-<br><br>
+    <a href='/player/add' style="font-size:24px;">Add a new player</a> 
+    <br><br>
 
     
     <div class="row">
@@ -30,8 +30,8 @@
         </div>
         {/players}
     </div>
-
+    
     <div id="rosterlinks">
     {links}
-    </div>
+    
 </div>
