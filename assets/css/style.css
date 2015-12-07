@@ -108,6 +108,28 @@ div.teamtable td.nopadding {
     padding: 0;
 }
 
+.teamtable_special {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.teamtable_special td {
+    padding: 0 20px;
+    border: 1px solid #105878;
+}
+
+.teamtable_special th {
+    background-color: #f58220;
+    border: 1px solid #f58220;
+    color: white;
+}
+
+div.teamtable_special td.nopadding {
+    padding: 0;
+}
+
 .scorestable {
     text-align: center;
     display: block;
@@ -221,4 +243,11 @@ a {
 
 #prediction {
     color: #158f98;
+    font-size: 20px;
+}
+
+#prediction_blurb {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
 }
